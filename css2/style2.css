@@ -1,0 +1,138 @@
+nav{
+
+  margin-left: 500px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffd9b4;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ff9e81;
+}
+
+.timetable { }
+.timetable-workout { 
+  font-size: 12px; 
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+  background-color: #b4ddd7; 
+  font-weight: 700; 
+  font-family: 'Oswald', sans-serif; }
+
+.timetable-workout,.timetable.table>tbody>tr>td {
+   color: #fff; }
+
+.timetable,.table>tbody>tr>th { 
+  font-size: 14px; 
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+  font-weight: 700; 
+  font-family: 'Oswald', sans-serif; }
+
+.timetable,.table>thead>tr>th { 
+  font-size: 14px;
+  text-transform: uppercase;
+   letter-spacing: 1px; 
+   font-weight: 700;
+    font-family: 'Oswald', sans-serif; }
+
+.table { 
+  width: 100%; 
+  max-width: 100%; 
+  margin-bottom: 1rem; }
+
+.box-table { 
+  padding: 16px 30px;
+   margin: 0 -15px 15px;  
+   border: 1px solid #eee; }
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th { 
+  border-top: transparent; 
+  color: #26282c; 
+  border-bottom: 1px solid #eee;
+  width:200px;
+  padding:6% 0 0 ;
+  margin-top:-20px;
+  margin-left: 100px; }
+
+.table thead th { 
+  vertical-align: bottom;
+   border-bottom: 2px solid #eee; }
+
+.table-striped tbody tr:nth-of-type(odd) { 
+  background-color: hsl(224, 100%, 99%); 
+  }
+
+caption { 
+  padding-top: .75rem; 
+  padding-bottom: .75rem;
+   color: #26282c; 
+   text-align: left; 
+   caption-side: bottom; }
+
+.mb30{
+  margin-bottom:30px;}
+
+#pageA{
+  height:1000px;
+  background:white ;
+  
+  
+}
+#pageB{
+  height:1000px;
+  background:url('q1.jpg') ;
+  background-position:center;
+  background-size:cover;
+
+}
+#pageC{
+  height:1000px;
+  background:url('raw.jpg') ;
+  background-position:center;
+  background-size:cover;
+}
+
+.quiz-form{
+  width:360px;
+  padding:10% 0 0 ;
+  margin-top:60px;
+  margin-left:500px; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+
+}
+
+.check-form{
+  width:360px;
+  padding:10% 0 0 ;
+  margin-top:70px;
+  margin-left:500px; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  
+  
+
+}
+#abc{
+  margin-top: 100px;
+}
+
+
+

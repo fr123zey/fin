@@ -1,0 +1,88 @@
+body{
+  background:white;
+}
+img{
+  width:10%;
+  padding-left: 17%;
+  margin-top: -100px;
+
+}
+myName{
+  text-align: center;
+}
+
+.login-page{
+  width:360px;
+  padding:10% 0 0 ;
+  margin-top:-90px;
+  margin-left: 500px;
+}
+.form{
+  position: relative;
+  z-index: inherit ;
+  background:rgba(242, 38, 19,0.8);
+  max-width: 360px;
+  margin: 0 auto 60px ;
+  padding: 45px;
+  text-align:center; 
+
+}
+.form input{
+  font-family:"roboto", sans-serif;
+  outline:1;
+  background: white;
+  width:100%;
+  border:0;
+  margin:0 0 15px;
+  padding:15px;
+  box-sizing:border-box;
+  font-size:14px;
+}
+select{
+  outline:0;
+  background:#F03434;
+  width:80%;
+  border:0;
+  padding:15px;
+  color:white;
+  font-size:14px;
+
+}
+.form button {
+  font-family: "roboto", sans-serif;
+  text-transform:uppercase;
+  outline:0;
+  background:#F03434;
+  width:100%;
+  border:0;
+  padding:15px;
+  color:white;
+  font-size:14px;
+  cursor:pointer;
+
+}
+.form button:hover
+.form button:active{
+  background:pink;
+}
+
+.form.message{
+  margin:15px 0 0;
+  color:aliceblue;
+
+}
+.form .message a{
+  color:white;
+  text-decoration: none;
+}
+
+.form .register-form{
+  display:none;
+}
+
+
+
+
+
+
+

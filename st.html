@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MyEduc:eleve</title>
+    <link rel="stylesheet" href="css2/style2.css">
+</head>
+<body>
+    
+  <section id="pageA">
+
+      <nav class="fixed">
+          <ul>
+              <li><a href="index.html"> Acceuil </a></li>
+              <li><a href="#pageA"> Emploi du temps</a> </li>
+              <li><a href="#pageB"> Quiz </a> </li>
+              <li><a href="#pageC"> Devoirs </a></li>
+          </ul>
+
+      </nav>
+      
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center mb30">
+                <div class="table-responsive" id="abc">
+                    <table class="timetable table table-striped ">
+                        <thead>
+                            <tr class="text-center">
+                                <th scope="col"></th>
+                                <th scope="col">lundi</th>
+                                <th scope="col">mardi</th>
+                                <th scope="col">mercredi</th>
+                                <th scope="col">jeudi</th>
+                                <th scope="col">vendredi</th>
+                               
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">08:00 Am - 09:00 Am</th>
+                                <td></td>
+                                <td></td>
+                                <td class="timetable-workout"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">09:00 Am - 10:00 Am</th>
+                                <td></td>
+                                <td></td>
+                                <td class="timetable-workout">Classes Name</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">10:00 Am - 11:00 Am</th>
+                                <td class="timetable-workout"></td>
+                                <td class="timetable-workout"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">11:00 Am - 12:00 Pm</th>
+                                <td class="timetable-workout">Classes Name</td>
+                                <td class="timetable-workout">Classes Name</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">13:00 Pm - 14:00 Pm</th>
+                                <td></td>
+                                <td class="timetable-workout"></td>
+                                <td></td>
+                                <td class="timetable-workout"></td>
+                                <td class="timetable-workout"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">14:00 Pm - 15:00 Pm</th>
+                                <td></td>
+                                <td class="timetable-workout">Classes Name</td>
+                                <td></td>
+                                <td class="timetable-workout">Classes Name</td>
+                                <td class="timetable-workout">Classes Name</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                
+                        </tbody>
+                    </table>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+    </div>
+
+      
+  </section> 
+
+  <section id="pageB">
+        <link rel="stylesheet" href="css3/style.css">
+        
+        <div class="quiz-form">
+            <div id ="quiz"></div>    
+            <button id ="submit">Submit Quiz</button> 
+            <div id="results"></div>
+        </div>    
+ <script src="js3/main.js"  ></script>
+           
+  </section>
+
+
+  <section id="pageC">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script> 
+         $('.all').on('click', function(e){
+    $this = this;  
+    $.each($(this).find('input'), function(i, item){
+      $(item).prop('checked', $this.checked);
+    });
+  });
+        </script>
+    
+    
+    <div class="container">
+        <div class="row">
+            
+            <div class="check-form" id="checking">
+                  <h3>n'oublies pas de faire</h3>
+                  <h2>Listes des taches:</h2>
+                  <label><p></p><input type="checkbox" class="all"> tous</label>
+                  <hr>
+                  <label><input type="checkbox" > projet n°2</label><br>
+                  <label><input type="checkbox" > exercice n°3</label><br>
+                  <label><input type="checkbox" >résumer du text</label><br>
+                  <label><input type="checkbox" >production écrite</label><br>
+                  
+                
+            </div> 
+            
+    </div>
+  </section>
+        
+        
+
+
+
+
+
+
+<script src="js2/main2.js"></script>    
+
+</body>
+</html>
